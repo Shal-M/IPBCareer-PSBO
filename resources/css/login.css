@@ -1,0 +1,12 @@
+.column-1 {
+    flex: 2;
+    background-color:#0A70BB;
+}
+
+.column-2{
+    flex:1;
+}
+
+.column-layout{
+    display:flex;
+}

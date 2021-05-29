@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    
     <title>IPB Career</title>
   </head>
   <body style="background-color:#0061A8">
@@ -25,17 +25,17 @@
             <a class="nav-link" href="#" style="font-size:20px; color:#1B1717">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:20px; color:#1B1717">Log in</a>
+            <a class="nav-link" href="{{url('/login')}}" style="font-size:20px; color:#1B1717">Log in</a>
           </li>
           <li class="nav-item">
-            <button class="btn btn-primary" type="submit">Sign Up</button>
+            <a class="btn btn-primary" href="{{url('/signup')}}" role="button">Sign Up</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <h1 style="font-size:38px; color:#B4D7EE; font-family: Poppins; line-height: 57px;" width:"665" height:"114">Kerja selain di bank sekarang mudah!</h1>
-    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532" height="408">
+    <h1 style="font-size:38px; color:#B4D7EE; font-family: Poppins; line-height: 57px;" width:"665" height:"114" class="fw-bold">Kerja selain di bank sekarang mudah!</h1>
+    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="408px">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
