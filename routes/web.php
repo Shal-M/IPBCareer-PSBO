@@ -26,4 +26,12 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/user','App\Http\Controllers\UserController@index');
+Route::post('/login','App\Http\Controllers\UserController@store');
+
+Route::post('/user','App\Http\Controllers\AuthController@proses_login');
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::group(['middleware' => ['cek_login']], function () {
+        Route::get('/user','App\Http\Controllers\UserController@index');
+     });
+});

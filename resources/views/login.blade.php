@@ -76,12 +76,13 @@
     </div>
       <div class="p-3 flex-fill bd-highlight" style="background-color:#E5E5E5;;flex: 2;align-items: stretch; width: auto;">
         <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
-        <form>
+        <form method="POST" action="{{url('/user')}}">
+        @csrf
           <div class="mb-3">
-            <input type="email" class="form-control form rounded mx-auto d-block" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <input type="email" class="form-control form rounded mx-auto d-block" name='name' id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
           </div>
           <div class="mb-3">
-            <input type="password" class="form-control form rounded mx-auto d-block" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control form rounded mx-auto d-block" name='password' id="exampleInputPassword1" placeholder="Password">
           </div>
           <div class="row justify-content-between"  style="margin-top:41px">
             <div class="col-4" style="margin-left:41px;">
@@ -91,7 +92,7 @@
               </div>
             </div>
             <div class="col-4">
-              <button type="submit" class="btn btn-primary" href="{{url('/user')}}">Log In</button>
+              <button type="submit" class="btn btn-primary">Log In</button>
             </div>
           </div>
         </form>

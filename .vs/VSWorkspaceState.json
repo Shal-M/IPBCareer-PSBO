@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
     "\\resources",
-    "\\resources\\css",
-    "\\resources\\views"
+    "\\resources\\views",
+    "\\resources\\views\\User"
   ],
-  "SelectedNode": "\\resources\\views\\signup.blade.php",
+  "SelectedNode": "\\.env.example",
   "PreviewInSolutionExplorer": false
 }

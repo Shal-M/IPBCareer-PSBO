@@ -76,18 +76,19 @@
     </div>
       <div class="p-3 flex-fill bd-highlight" style="background-color:#E5E5E5;;flex: 2;align-items: stretch;">
         <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
-        <form>
+        <form method="POST" action="{{url('/login')}}">
+        @csrf
           <div class="mb-3">
-            <input type="text" class="form-control form rounded mx-auto d-block" placeholder="Name" Required>
+            <input type="text" class="form-control form rounded mx-auto d-block" name="name" placeholder="Name" Required>
           </div>
           <div class="mb-3">
-            <input type="email" class="form-control form rounded mx-auto d-block" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" Required>
+            <input type="email" class="form-control form rounded mx-auto d-block" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" Required>
           </div>
           <div class="mb-3">
-            <input type="password" class="form-control form rounded mx-auto d-block" id="exampleInputPassword1" placeholder="Password" Required>
+            <input type="password" class="form-control form rounded mx-auto d-block" name="password" id="exampleInputPassword1" placeholder="Password" Required>
           </div>
           <div class="mb-3">
-            <input type="Retype password" class="form-control form rounded mx-auto d-block" id="exampleInputPassword1" placeholder="Retype-Password" Required>
+            <input type="password" class="form-control form rounded mx-auto d-block" name="retype-password" id="exampleInputPassword2" placeholder="Password" placeholder="Retype-Password" Required>
           </div>
           <div>
             <button class="btn btn-primary rounded mx-auto d-block button" style="background-color:#0061A8; font-color:#F9F7F7; margin-top:37px;" type="submit">Sign Up</button>

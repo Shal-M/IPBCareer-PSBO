@@ -15,7 +15,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('user.userhome');
+        return view('User.userhome');
     }
 
     /**
@@ -25,7 +25,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -36,7 +36,17 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'email'=>'required',
+            'password'=>'required',
+            'retype-password'=>'required_with:password|same:password',
+        ],
+        ['retype-password.required'=>'Password Tidak Sama',
+        ]);
+
+        User::create($request->all());
+        return view('/login');
     }
 
     /**
