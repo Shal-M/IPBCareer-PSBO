@@ -78,10 +78,10 @@
         <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
         <form>
           <div class="mb-3">
-            <input type="email" class="form-control form rounded mx-auto d-block" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" Required>
+            <input type="email" class="form-control form rounded mx-auto d-block" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
           </div>
           <div class="mb-3">
-            <input type="password" class="form-control form rounded mx-auto d-block" id="exampleInputPassword1" placeholder="Password" Required>
+            <input type="password" class="form-control form rounded mx-auto d-block" id="exampleInputPassword1" placeholder="Password">
           </div>
           <div class="row justify-content-between"  style="margin-top:41px">
             <div class="col-4" style="margin-left:41px;">
@@ -91,7 +91,7 @@
               </div>
             </div>
             <div class="col-4">
-              <button type="submit" class="btn btn-primary button" style="background-color:#0061A8; font-color:#F9F7F7;">Log In</button>
+              <button type="submit" class="btn btn-primary" href="{{url('/user')}}">Log In</button>
             </div>
           </div>
         </form>

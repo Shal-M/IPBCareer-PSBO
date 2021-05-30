@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\resources",
+    "\\resources\\css",
     "\\resources\\views"
   ],
-  "SelectedNode": "\\public",
+  "SelectedNode": "\\resources\\views\\signup.blade.php",
   "PreviewInSolutionExplorer": false
 }

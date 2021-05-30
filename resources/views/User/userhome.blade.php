@@ -7,35 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
-    <title>IPB Career</title>
-  </head>
-  <body style="background-color:#0061A8">
-    <!--navbar -->
-    <nav class="navbar navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand">
-          <img src="{{asset("images/ipb2.png")}}" alt="" width="80" height="80">
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="#" style="font-size:20px; color:#1B1717">How it works ?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:20px; color:#1B1717">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{url('/user')}}" style="font-size:20px; color:#1B1717">Log in</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-primary" href="{{url('/signup')}}" role="button">Sign Up</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <h1 style="font-size:38px; color:#B4D7EE; font-family: Poppins; line-height: 57px;" width:"665" height:"114" class="fw-bold">Kerja selain di bank sekarang mudah!</h1>
-    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="408px">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
