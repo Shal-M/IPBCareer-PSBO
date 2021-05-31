@@ -88,7 +88,7 @@
             <input type="password" class="form-control form rounded mx-auto d-block" name="password" id="exampleInputPassword1" placeholder="Password" Required>
           </div>
           <div class="mb-3">
-            <input type="password" class="form-control form rounded mx-auto d-block" name="retype-password" id="exampleInputPassword2" placeholder="Password" placeholder="Retype-Password" Required>
+            <input type="password" class="form-control form rounded mx-auto d-block" name="retype-password" id="exampleInputPassword1" placeholder="Password" placeholder="Retype-Password" Required>
           </div>
           <div>
             <button class="btn btn-primary rounded mx-auto d-block button" style="background-color:#0061A8; font-color:#F9F7F7; margin-top:37px;" type="submit">Sign Up</button>

@@ -12,15 +12,13 @@
   </head>
   <body style="background-color:#0061A8">
     <!--navbar -->
+    <div class="d-flex flex-column bd-highlight mb-3">
     <nav class="navbar navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand">
           <img src="{{asset("images/ipb2.png")}}" alt="" width="80" height="80">
         </a>
         <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="#" style="font-size:24px; font-family: poppins; color:#1B1717">Add job preferences</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#" style="font-size:24px; font-family: poppins; color:#1B1717">Favorites</a>
           </li>
@@ -31,7 +29,7 @@
           <ul class="dropdown-menu dropdown-menu-lg-end">
             <li><div class="dropdown-item disabled d-flex bd-highlight">
                   <div class="p-2 bd-highlight"><div class="d-flex flex-column bd-highlight mb-2">
-                      <div class="bd-highlight" style="color:#000000; font-size: 25px; font-family: Poppins; font-style: bold;">Alfian Arief Santoso</div>
+                      <div class="bd-highlight" style="color:#000000; font-size: 25px; font-family: Poppins; font-style: bold;">{{Auth::user()->name}}</div>
                       <div class="bd-highlight" style="color:#000000;">Ilmu Komputer</div>
                   </div>
                 </div>
@@ -48,9 +46,15 @@
         </ul>
       </div>
     </nav>
-
-    <h1 style="font-size:38px; color:#B4D7EE; font-family: Poppins; line-height: 57px;" width:"665" height:"114" class="fw-bold">Kerja selain di bank sekarang mudah!</h1>
-    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="408px">
+    <form class="p-4 bd-highlight bg-light" >
+        <div class="input-group" style="filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));">
+            <input type="search" name="search" class="form-control">
+            <span class="input-group-prepend">
+                <button type="submit" class="btn btn-primary btn-outline-info" style="background-color:#42ADE2; color:#000000;">search</button>
+            </span>
+        </div>
+    </form>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

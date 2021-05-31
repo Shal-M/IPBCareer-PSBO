@@ -25,7 +25,7 @@
             <a class="nav-link" href="#" style="font-size:20px; color:#1B1717">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('/user')}}" style="font-size:20px; color:#1B1717">Log in</a>
+            <a class="nav-link" href="{{url('/login')}}" style="font-size:20px; color:#1B1717">Log in</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-primary" href="{{url('/signup')}}" role="button">Sign Up</a>

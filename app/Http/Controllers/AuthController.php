@@ -10,15 +10,6 @@ class AuthController extends Controller
 {
     public function index()
     {
-        if ($user = Auth::user()) {
-            // $isChairman = Chairman::where('c_nim', $user->nim)->get();
-
-            // if (count($isChairman)) {
-            //     return redirect()->intended('dashboard');  
-            // }
-            return redirect()->intended('User.userhome');  
-        }
-
         return view('login');
     }
 
@@ -39,9 +30,9 @@ class AuthController extends Controller
         if (Auth::attempt($user_login, true)) {
             $user = Auth::user();
             // return($user);
-            return redirect('User.userhome');
+            return redirect()->intended('dashboard');  
         }
-
+        
         return redirect('login')->withInput()->withErrors(['login_gagal' => 'email atau password anda salah!']);
     }
 

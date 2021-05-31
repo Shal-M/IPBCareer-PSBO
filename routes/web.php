@@ -28,10 +28,10 @@ Route::get('/signup', function () {
 
 Route::post('/login','App\Http\Controllers\UserController@store');
 
-Route::post('/user','App\Http\Controllers\AuthController@proses_login');
+Route::post('/dashboard','App\Http\Controllers\AuthController@proses_login')->name('proses_login');
 
 Route::group(['middleware' => ['auth']], function () {
     Route::group(['middleware' => ['cek_login']], function () {
-        Route::get('/user','App\Http\Controllers\UserController@index');
+        Route::get('/dashboard','App\Http\Controllers\UserController@index');
      });
 });

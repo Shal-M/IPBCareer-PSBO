@@ -15,7 +15,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('User.userhome');
+        return view('User.dashboard');
     }
 
     /**
@@ -45,7 +45,11 @@ class UserController extends Controller
         ['retype-password.required'=>'Password Tidak Sama',
         ]);
 
-        User::create($request->all());
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => bcrypt($request->password)
+        ]);
         return view('/login');
     }
 

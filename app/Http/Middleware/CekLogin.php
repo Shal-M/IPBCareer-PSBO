@@ -23,8 +23,6 @@ class CekLogin
 
         $user = Auth::user();
 
-
-        
         return $next($request);
     }
 }
