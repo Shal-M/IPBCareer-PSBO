@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/adminpage', function () {
+    return view('adminpage');
 });
 
 Route::get('/signup', function () {
