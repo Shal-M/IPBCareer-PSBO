@@ -22,8 +22,8 @@ Route::get('/adminpage', function () {
     return view('adminpage');
 });
 
-Route::get('/signup', function () {
-    return view('signup');
+Route::get('/adminlogin', function () {
+    return view('adminlogin');
 });
 
 Route::post('/login','App\Http\Controllers\UserController@store');

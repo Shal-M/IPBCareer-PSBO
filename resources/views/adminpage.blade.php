@@ -23,6 +23,7 @@
       .box{
         width: 500px;
         height: 500px;
+        border-radius: 10px;
         background-color: white;
         margin: 20px auto;
         margin-top: 101px;
@@ -31,6 +32,7 @@
 
       .btn{
         background-color: #0061A8;
+        border-radius: 5px;
         margin-bottom: 34px;
         padding-left: 50px;
         padding-right: 50px;
