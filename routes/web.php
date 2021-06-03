@@ -26,6 +26,10 @@ Route::get('/adminlogin', function () {
     return view('adminlogin');
 });
 
+Route::get('/adminsignup', function () {
+    return view('adminsignup');
+});
+
 Route::post('/login','App\Http\Controllers\UserController@store');
 
 Route::post('/dashboard','App\Http\Controllers\AuthController@proses_login')->name('proses_login');
