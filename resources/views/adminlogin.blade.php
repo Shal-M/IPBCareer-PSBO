@@ -62,7 +62,7 @@
             <a class="btn btn-primary" role="button" href="">Log In</a>
         </div>
         <div class="text-center" style="padding-top:30px; padding-bottom:70px; text-align: justify;">
-            <b><a style="color:#0061A8" href="{{url('/signup')}}">Sign up your company here!</a></b>
+            <b><a style="color:#0061A8" href="{{url('/adminsignup')}}">Sign up your company here!</a></b>
         </div>
     </div>
   </body>

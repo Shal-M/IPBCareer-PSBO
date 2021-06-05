@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 Route::get('/adminpage', function () {
     return view('adminpage');
 });
@@ -28,6 +32,10 @@ Route::get('/adminlogin', function () {
 
 Route::get('/adminsignup', function () {
     return view('adminsignup');
+});
+
+Route::get('/homeadmin', function () {
+    return view('homeadmin');
 });
 
 Route::post('/login','App\Http\Controllers\UserController@store');

@@ -45,10 +45,11 @@
           <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
           <h1><p class="text-center">IPB Career</p></h1>
             <div class="d-grid gap-2 col-6 mx-auto">
-              <a class="btn btn-primary" role="button" href="">Log In as employer</a>
-              <a class="btn btn-primary" role="button" href="">Sign Up as employer</a>
+              <a class="btn btn-primary" role="button" href="{{url('/adminlogin')}}">Log In as employer</a>
+              <a class="btn btn-primary" role="button" href="{{url('/adminsignup')}}">Sign Up as employer</a>
             </div>
         </div>
       </div>
   </body>
 </html>
+
