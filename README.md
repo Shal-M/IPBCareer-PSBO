@@ -4,8 +4,11 @@
 KELOMPOK 5
 
 Alfian Arief Santoso - G64180061 - Frontend Developer
+
 Muhammad Faishal Mumtaz - G64180093 - Backend Developer
+
 Ramadhan Wiradikusuma - G64180096 - Project Manager
+
 Ananda Alfarishi Anwar - G64180097 - UI/UX Designer
 
 ## IPB CAREER
