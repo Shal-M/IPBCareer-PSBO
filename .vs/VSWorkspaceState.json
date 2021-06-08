@@ -3,13 +3,10 @@
     "",
     "\\app",
     "\\app\\Http",
-    "\\app\\Http\\Middleware",
-    "\\database\\migrations",
-    "\\public",
+    "\\app\\Http\\Controllers",
+    "\\app\\Providers",
     "\\resources",
-    "\\resources\\views",
-    "\\resources\\views\\User",
-    "\\routes"
+    "\\resources\\views"
   ],
   "SelectedNode": "\\app\\Http\\Kernel.php",
   "PreviewInSolutionExplorer": false

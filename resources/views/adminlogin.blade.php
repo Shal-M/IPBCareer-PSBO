@@ -50,17 +50,23 @@
         <div class="img">
           <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
         </div>
-        <form method="POST" action="{{url('/dashboard')}}">
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+        <form method="POST" action="{{url('/admindashboard')}}">
+        @csrf
         <div class="mb-3">
             <input type="email" class="form-control form rounded mx-auto d-block" name='email' id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
         </div>
         <div class="mb-3">
             <input type="password" class="form-control form rounded mx-auto d-block" name='password' id="exampleInputPassword1" placeholder="Password">
         </div>
-        </form>
         <div class="d-grid gap-2 col-6 mx-auto">
-            <a class="btn btn-primary" role="button" href="">Log In</a>
+            <button class="btn btn-primary" type="submit" >Log In</button>
         </div>
+        </form>  
         <div class="text-center" style="padding-top:30px; padding-bottom:70px; text-align: justify;">
             <b><a style="color:#0061A8" href="{{url('/adminsignup')}}">Sign up your company here!</a></b>
         </div>
