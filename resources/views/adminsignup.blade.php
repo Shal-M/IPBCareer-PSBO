@@ -57,11 +57,12 @@
         <div class="img">
           <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
         </div>
-        <form method="POST" action="{{url('/dashboard')}}">
-            <input class="form-control form rounded mx-auto d-block" type="text" placeholder="Company name" aria-label="default input example">
-            <input class="form-control form rounded mx-auto d-block" type="text" placeholder="Company employer's name" aria-label="default input example">
-            <input class="form-control form rounded mx-auto d-block" type="text" placeholder="company type" aria-label="default input example">
-            <input class="form-control form rounded mx-auto d-block" type="text" placeholder="company's address" aria-label="default input example">
+        <form method="POST" action="{{url('/adminsignup')}}">
+        @csrf
+            <input class="form-control form rounded mx-auto d-block" type="text" name="company_name" placeholder="Company name" aria-label="default input example">
+            <input class="form-control form rounded mx-auto d-block" type="text" name="company_employer_name" placeholder="Company employer's name" aria-label="default input example">
+            <input class="form-control form rounded mx-auto d-block" type="text" name="company_type" placeholder="company type" aria-label="default input example">
+            <input class="form-control form rounded mx-auto d-block" type="text" name="company_address" placeholder="company's address" aria-label="default input example">
         <div class="mb-3">
             <input type="email" class="form-control form rounded mx-auto d-block" name='email' id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Email">
         </div>
@@ -72,7 +73,7 @@
             <input type="password" class="form-control form rounded mx-auto d-block" name="retype-password" id="exampleInputPassword1" placeholder="Confirm password" placeholder="Retype-Password" Required>
         </div>   
         <div class="d-grid gap-2 col-6 mx-auto">
-            <a class="btn btn-primary" role="button" href="">Sign Up</a>
+            <button class="btn btn-primary rounded mx-auto d-block button" style="background-color:#0061A8; font-color:#F9F7F7;" type="submit">Sign Up</button>
         </div>      
         </form>
     </div>

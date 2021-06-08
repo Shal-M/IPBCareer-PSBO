@@ -38,7 +38,7 @@
             </li>
             <li><div class="d-flex bd-highlight">
                   <div class="p-2 w-50 bd-highlight">View Profile</div>
-                  <div class="p-2 flex-shrink-1 bd-highlight">Log Out</div>
+                  <div class="p-2 flex-shrink-1 bd-highlight" type="button" href="#">Log Out</div>
                 </div>
             </li>
           </ul>
