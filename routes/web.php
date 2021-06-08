@@ -38,6 +38,10 @@ Route::get('/homeadmin', function () {
     return view('homeadmin');
 });
 
+Route::get('/postjob', function () {
+    return view('postjob');
+});
+
 Route::post('/login','App\Http\Controllers\UserController@store');
 
 Route::post('/dashboard','App\Http\Controllers\AuthController@proses_login')->name('proses_login');
