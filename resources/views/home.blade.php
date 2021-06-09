@@ -28,10 +28,10 @@
             <a class="nav-link" href="{{url('/adminpage')}}" style="font-size:20px; color:#0061A8">Sign your company</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('/login')}}" style="font-size:20px; color:##0061A8">Log in</a>
+            <a class="nav-link" href="{{url('/userloginpage')}}" style="font-size:20px; color:##0061A8">Log in</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary" href="{{url('/signup')}}" role="button">Sign Up</a>
+            <a class="btn btn-primary" href="{{url('/usersignuppage')}}" role="button">Sign Up</a>
           </li>
         </ul>
       </div>

@@ -42,4 +42,27 @@ class AuthController extends Controller
         Auth::logout();
         return Redirect('login');
     }
+
+    public function proses_loginemployer(Request $request)
+    {
+        $request->validate([
+            'email'=>'required',
+            'password'=>'required',
+        ],
+    
+        [
+            'email.required'=>'Email harus diisi',
+            'password.required'=>'Password harus diisi',
+        ]);
+
+        $employer_login = $request->only('email', 'password');
+
+        if (Auth::guard('employer')->attempt($employer_login)) {
+            $employer = Auth::guard('employer');
+            // return($user);
+            return redirect()->intended('homeadmin');  
+        }
+        
+        return redirect('login')->withInput()->withErrors(['login_gagal' => 'email atau password anda salah!']);
+    }
 }

@@ -97,7 +97,7 @@
           </div>
         </form>
         <div class="text-center" style="padding-top:30px; padding-bottom:70px; text-align: justify;">
-            <a style="color:#0061A8" href="{{url('/signup')}}">Don’t have an account ? Sign up!</a>
+            <a style="color:#0061A8" href="{{url('/usersignuppage')}}">Don’t have an account ? Sign up!</a>
         </div>
       </div>
     </div>

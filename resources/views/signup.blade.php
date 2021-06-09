@@ -95,7 +95,7 @@
           </div>
         </form>
         <div class="text-center" style="padding-top:30px; padding-bottom:70px;">
-            <a style="color:#0061A8" href="{{url('/login')}}">You have an account ? Log in !</a>
+            <a style="color:#0061A8" href="{{url('/userloginpage')}}">You have an account ? Log in !</a>
         </div>
       </div>
     </div>

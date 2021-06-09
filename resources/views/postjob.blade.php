@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <style>
+      .float-lg-start{
+        margin-right: 600px;
+      }
+
       .box{
         width: 800px;
         height: 2000px;
@@ -38,6 +42,22 @@
       .form-control{
         width: 359px;
         height: 60px;
+        border: solid 2px black;
+        margin-bottom: 34px;
+        padding-right: 50px;
+      }
+      
+      .form-control{
+        width: 359px;
+        height: 60px;
+        border: solid 2px black;
+        margin-bottom: 34px;
+        padding-right: 50px;
+      }
+
+      #exampleFormControlTextarea1{
+        width: 650px;
+        height: 300px;
         border: solid 2px black;
         margin-bottom: 34px;
         padding-right: 50px;
@@ -82,10 +102,38 @@
         <div class="img">
           <img src="{{asset("images/ipb2.png")}}" alt="" class="rounded mx-auto d-block logoipb">
         </div>
-        <form method="POST" action="{{url('/dashboard')}}">
-            <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Job’s name" aria-label="default input example">
-            <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Phone number" aria-label="default input example">
-            <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Email" aria-label="default input example">
-        </form>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-4">
+                    <form method="POST" action="{{url('/dashboard')}}">
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Job’s name" aria-label="default input example">
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Phone number" aria-label="default input example">
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Email" aria-label="default input example">
+                    </form>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Job's Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Minimum Qualifications</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div> 
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Benefits</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div> 
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Job's Level
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" >Action</a></li>
+                    <li><a class="dropdown-item" >Another action</a></li>
+                    <li><a class="dropdown-item" >Something else here</a></li>
+                  </ul>
+                </div> 
+        </div>  
   </body>
 </html>
