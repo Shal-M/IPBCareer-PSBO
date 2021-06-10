@@ -174,7 +174,7 @@
           </div>
           <div class="row justify-content-around">
             <div class="col-4">
-              Cancel
+              <a class="cancel float-lg-start">Cancel</a>
             </div>
             <div class="col-4">
               <div class="d-grid gap-2 col-6 mx-auto">
