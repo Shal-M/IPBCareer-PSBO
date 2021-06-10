@@ -61,6 +61,7 @@ Route::group(['middleware' => ['auth']], function () {
 });
 
 
+
 #Employer
 Route::post('/adminsignup','App\Http\Controllers\EmployerController@store');
 
