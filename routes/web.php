@@ -48,6 +48,9 @@ Route::get('/homeadmin', function () {
 
 Route::get('/usersignuppage', function () {
     return view('signup');
+
+Route::get('/postjob', function () {
+    return view('postjob');
 });
 
 Route::post('/login','App\Http\Controllers\UserController@store');
@@ -59,8 +62,6 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/dashboard','App\Http\Controllers\UserController@index');
      });
 });
-
-
 
 #Employer
 Route::post('/adminsignup','App\Http\Controllers\EmployerController@store');
