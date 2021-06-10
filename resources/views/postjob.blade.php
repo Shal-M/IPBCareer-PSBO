@@ -114,7 +114,6 @@
                     <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Job’s name" aria-label="default input example">
                     <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Phone number" aria-label="default input example">
                     <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Email" aria-label="default input example">
-                    </form>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Job's Description</label>
@@ -129,50 +128,46 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div> 
                 <label for="exampleFormControlTextarea1" class="form-label">Job's summary</label>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                   Job's level
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Internship</a></li>
-                    <li><a class="dropdown-item" href="#">Fresh graduate</a></li>
-                    <li><a class="dropdown-item" href="#">Junior</a></li>
-                    <li><a class="dropdown-item" href="#">Senior</a></li>
-                  </ul>
+                <div class="input-group mb-3" >
+                  <label class="input-group-text" for="inputGroupSelectJobsLevel">Job's Level</label>
+                  <select class="form-select" id="inputGroupSelectJobsLevel">
+                    <option selected>Choose...</option>
+                    <option value="1">Internship</option>
+                    <option value="2">Fresh Graduate</option>
+                    <option value="3">Junior</option>
+                    <option value="4">Senior</option>
+                  </select>
                 </div>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Job's category
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Information Technology</a></li>
-                    <li><a class="dropdown-item" href="#">System Developer</a></li>
-                    <li><a class="dropdown-item" href="#">Business Analyst</a></li>
-                    <li><a class="dropdown-item" href="#">Frontend Developer</a></li>
-                  </ul>
+                <div class="input-group mb-3" >
+                  <label class="input-group-text" for="inputGroupSelectJobsCategory">Job's Category</label>
+                  <select class="form-select" id="inputGroupSelectJobsCategory">
+                    <option selected>Choose...</option>
+                    <option value="1">Information Technology</option>
+                    <option value="2">System Development</option>
+                    <option value="3">Business Analyst</option>
+                    <option value="4">Frontend Developer</option>
+                  </select>
                 </div>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                   vacancy
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">1</a></li>
-                    <li><a class="dropdown-item" href="#">2</a></li>
-                    <li><a class="dropdown-item" href="#">3</a></li>
-                    <li><a class="dropdown-item" href="#">4</a></li>
-                    <li><a class="dropdown-item" href="#">5</a></li>
-                  </ul>
+                <div class="input-group mb-3" >
+                  <label class="input-group-text" for="inputGroupSelectVacancy">Vacancy</label>
+                  <select class="form-select" id="inputGroupSelectVacancy">
+                    <option selected>Choose...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
                 </div>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Industry
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Technology</a></li>
-                    <li><a class="dropdown-item" href="#">IT</a></li>
-                    <li><a class="dropdown-item" href="#">Textile</a></li>
-                    <li><a class="dropdown-item" href="#">Bank</a></li>
-                  </ul>
+                <div class="input-group mb-3" >
+                  <label class="input-group-text" for="inputGroupSelectIndustry">Industry</label>
+                  <select class="form-select" id="inputGroupSelectIndustry">
+                    <option selected>Choose...</option>
+                    <option value="1">Information Techology</option>
+                    <option value="2">IT</option>
+                    <option value="3">Textile</option>
+                    <option value="4">Bank</option>
+                  </select>
                 </div>
             </div>
             <input class="form-control form rounded mx-auto d-block float-lg-start"  id="required" type="text" placeholder="Educational Requirement" aria-label="default input example">
@@ -187,6 +182,7 @@
               </div>
             </div>
           </div>
+          </form>
       </div>
   </body>
 </html>

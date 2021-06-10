@@ -58,7 +58,7 @@
     </nav>
     <hr background-color: white>
     <div class="d-grid gap-2 d-md-block">
-        <h1><button class="btn btn-primary" href="#" role="button">Post Job</button></h1>
+        <a class="btn" href="{{url('/postjob')}}" role="button">Post Job</a>
     </div>
   </body>
 </html>
