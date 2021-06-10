@@ -14,7 +14,7 @@
 
       .box{
         width: 800px;
-        height: 2000px;
+        height: 2150px;
         border-radius: 10px;
         background-color: white;
         margin: 20px auto;
@@ -62,6 +62,11 @@
         margin-bottom: 34px;
         padding-right: 50px;
       }
+      
+      .dropdown{
+        margin-bottom: 20px;
+      }
+
     </style>
   </head>
   <body style="background-color:#0061A8">
@@ -123,17 +128,65 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Benefits</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div> 
+                <label for="exampleFormControlTextarea1" class="form-label">Job's summary</label>
                 <div class="dropdown">
-                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Job's Level
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" >Action</a></li>
-                    <li><a class="dropdown-item" >Another action</a></li>
-                    <li><a class="dropdown-item" >Something else here</a></li>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Job's level
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Internship</a></li>
+                    <li><a class="dropdown-item" href="#">Fresh graduate</a></li>
+                    <li><a class="dropdown-item" href="#">Junior</a></li>
+                    <li><a class="dropdown-item" href="#">Senior</a></li>
                   </ul>
-                </div> 
-        </div>  
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Job's category
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Information Technology</a></li>
+                    <li><a class="dropdown-item" href="#">System Developer</a></li>
+                    <li><a class="dropdown-item" href="#">Business Analyst</a></li>
+                    <li><a class="dropdown-item" href="#">Frontend Developer</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   vacancy
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">1</a></li>
+                    <li><a class="dropdown-item" href="#">2</a></li>
+                    <li><a class="dropdown-item" href="#">3</a></li>
+                    <li><a class="dropdown-item" href="#">4</a></li>
+                    <li><a class="dropdown-item" href="#">5</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Industry
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Technology</a></li>
+                    <li><a class="dropdown-item" href="#">IT</a></li>
+                    <li><a class="dropdown-item" href="#">Textile</a></li>
+                    <li><a class="dropdown-item" href="#">Bank</a></li>
+                  </ul>
+                </div>
+            </div>
+            <input class="form-control form rounded mx-auto d-block float-lg-start"  id="required" type="text" placeholder="Educational Requirement" aria-label="default input example">
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-4">
+              Cancel
+            </div>
+            <div class="col-4">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary rounded mx-auto d-block button" style="background-color:#0061A8; font-color:#F9F7F7;" type="submit">Post job</button>
+              </div>
+            </div>
+          </div>
+      </div>
   </body>
 </html>
