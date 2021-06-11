@@ -20,7 +20,7 @@ class CreateEmployerTable extends Migration
             $table->string('company_employer_name');
             $table->string('company_type');
             $table->string('company_address');
-            $table->string('company_email');
+            $table->string('email');
             $table->string('password');
         });
     }

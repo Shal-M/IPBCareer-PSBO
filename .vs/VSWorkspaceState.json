@@ -5,9 +5,11 @@
     "\\app\\Http",
     "\\app\\Http\\Controllers",
     "\\app\\Providers",
+    "\\public",
     "\\resources",
-    "\\resources\\views"
+    "\\resources\\views",
+    "\\resources\\views\\User"
   ],
-  "SelectedNode": "\\resources\\views\\signup.blade.php",
+  "SelectedNode": "\\resources\\views\\User\\dashboard.blade.php",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Employer;
 use App\Http\Controllers\Controller;
+use App\Models\Job;
+use Illuminate\Support\Facades\Auth;
 
 class EmployerController extends Controller
 {
@@ -15,7 +17,10 @@ class EmployerController extends Controller
      */
     public function index()
     {
-        return view('homeadmin');
+        $job = Job::where('id_employer', Auth::guard('employer')->user()->id)->get();
+        $employer = Employer::where('id', Auth::guard('employer')->user()->id)->get();
+
+        return view('homeadmin', compact('job', 'employer'));
     }
 
     /**

@@ -16,7 +16,7 @@ class Employer extends Authenticatable
         'company_employer_name',
         'company_type',
         'company_address',
-        'company_email',
+        'email',
         'password',
     ];
 

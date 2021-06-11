@@ -60,7 +60,7 @@ class AuthController extends Controller
         if (Auth::guard('employer')->attempt($employer_login)) {
             $employer = Auth::guard('employer');
             // return($user);
-            return redirect()->intended('homeadmin');  
+            return redirect()->intended('admindashboard');  
         }
         
         return redirect('login')->withInput()->withErrors(['login_gagal' => 'email atau password anda salah!']);

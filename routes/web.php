@@ -42,8 +42,8 @@ Route::get('/userloginpage', function () {
     return view('login');
 });
 
-Route::get('/homeadmin', function () {
-    return view('homeadmin');
+Route::get('/usersignuppage', function () {
+    return view('signup');
 });
 
 Route::get('/postjob', function () {
@@ -70,8 +70,10 @@ Route::post('/adminsignup','App\Http\Controllers\EmployerController@store');
 
 Route::post('/admindashboard','App\Http\Controllers\AuthController@proses_loginemployer')->name('proses_loginemployer');
 
-Route::group(['middleware'=>'employer'], function () {
+
+Route::group(['middleware'=>['auth']], function () {
     Route::group(['middleware' => ['cek_login_employer']], function () {
         Route::get('/admindashboard','App\Http\Controllers\EmployerController@index');
+        Route::post('/postjob','App\Http\Controllers\JobController@store');
      });
 });

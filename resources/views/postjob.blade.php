@@ -110,67 +110,68 @@
         <div class="container">
             <div class="row justify-content-start">
                 <div class="col-4">
-                    <form method="POST" action="{{url('/dashboard')}}">
-                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Job’s name" aria-label="default input example">
-                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Phone number" aria-label="default input example">
-                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" placeholder="Email" aria-label="default input example">
+                    <form method="POST" action="/postjob">
+                    @csrf
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" name="jobs_name" placeholder="Job’s name" aria-label="default input example">
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" name="phonenumber" placeholder="Phone number" aria-label="default input example">
+                    <input class="form-control form rounded mx-auto d-block float-lg-start" type="text" name="email" placeholder="Email" aria-label="default input example">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Job's Description</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="jobs_desc" rows="3"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Minimum Qualifications</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="minimum_qualification" rows="3"></textarea>
                 </div> 
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Benefits</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="Benefits" rows="3"></textarea>
                 </div> 
                 <label for="exampleFormControlTextarea1" class="form-label">Job's summary</label>
                 <div class="input-group mb-3" >
                   <label class="input-group-text" for="inputGroupSelectJobsLevel">Job's Level</label>
-                  <select class="form-select" id="inputGroupSelectJobsLevel">
+                  <select class="form-select" id="inputGroupSelectJobsLevel" name="jobs_level">
                     <option selected>Choose...</option>
-                    <option value="1">Internship</option>
-                    <option value="2">Fresh Graduate</option>
-                    <option value="3">Junior</option>
-                    <option value="4">Senior</option>
+                    <option >Internship</option>
+                    <option >Fresh Graduate</option>
+                    <option >Junior</option>
+                    <option >Senior</option>
                   </select>
                 </div>
                 <div class="input-group mb-3" >
                   <label class="input-group-text" for="inputGroupSelectJobsCategory">Job's Category</label>
-                  <select class="form-select" id="inputGroupSelectJobsCategory">
+                  <select class="form-select" id="inputGroupSelectJobsCategory" name="jobs_category">
                     <option selected>Choose...</option>
-                    <option value="1">Information Technology</option>
-                    <option value="2">System Development</option>
-                    <option value="3">Business Analyst</option>
-                    <option value="4">Frontend Developer</option>
+                    <option >Information Technology</option>
+                    <option >System Development</option>
+                    <option >Business Analyst</option>
+                    <option >Frontend Developer</option>
                   </select>
                 </div>
                 <div class="input-group mb-3" >
                   <label class="input-group-text" for="inputGroupSelectVacancy">Vacancy</label>
-                  <select class="form-select" id="inputGroupSelectVacancy">
+                  <select class="form-select" id="inputGroupSelectVacancy" name="jobs_vacancy">
                     <option selected>Choose...</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                    <option >4</option>
+                    <option >5</option>
                   </select>
                 </div>
                 <div class="input-group mb-3" >
                   <label class="input-group-text" for="inputGroupSelectIndustry">Industry</label>
-                  <select class="form-select" id="inputGroupSelectIndustry">
+                  <select class="form-select" id="inputGroupSelectIndustry" name="jobs_industry">
                     <option selected>Choose...</option>
-                    <option value="1">Information Techology</option>
-                    <option value="2">IT</option>
-                    <option value="3">Textile</option>
-                    <option value="4">Bank</option>
+                    <option >Information Techology</option>
+                    <option >IT</option>
+                    <option >Textile</option>
+                    <option >Bank</option>
                   </select>
                 </div>
             </div>
-            <input class="form-control form rounded mx-auto d-block float-lg-start"  id="required" type="text" placeholder="Educational Requirement" aria-label="default input example">
+            <input class="form-control form rounded mx-auto d-block float-lg-start"  id="required" type="text" name="educational_recruitment" placeholder="Educational Requirement" aria-label="default input example">
           </div>
           <div class="row justify-content-around">
             <div class="col-4">
