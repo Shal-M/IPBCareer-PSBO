@@ -50,6 +50,10 @@ Route::get('/postjob', function () {
     return view('postjob');
 });
 
+Route::get('/jobpage', function () {
+    return view('jobpage');
+});
+
 Route::post('/login','App\Http\Controllers\UserController@store');
 
 Route::post('/dashboard','App\Http\Controllers\AuthController@proses_login')->name('proses_login');
