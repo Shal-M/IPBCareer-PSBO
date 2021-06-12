@@ -66,6 +66,7 @@
             </span>
         </div>
     </form>
+    @foreach ($job as $j)
     <div class="box">
         <div class="d-flex">
           <div class="flex-shrink-0">
@@ -73,14 +74,15 @@
           </div>
           <div class="flex-grow-1 ms-3">
             <div class="d-flex flex-column bd-highlight mb-3" style="margin-top:10px;">
-              <div class="p-2 bd-highlight" style="color:#0061A8; font-style:Poppins; font-size: 30px;">Nama Job</div>
-              <div class="p-2 bd-highlight" style="font-size: 20px;">Nama Company</div>
-              <div class="p-2 bd-highlight text-wrap" style="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor quam eu nisi malesuada. Enim tortor vitae.</div>
+              <div class="p-2 bd-highlight" style="color:#0061A8; font-style:Poppins; font-size: 30px;">{{$j->jobs_name}}</div>
+              <div class="p-2 bd-highlight" style="font-size: 20px;">{{$employer[0]->company_name}}</div>
+              <div class="p-2 bd-highlight text-wrap" style="">{{$j->jobs_desc}}</div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    @endforeach
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -66,7 +66,7 @@ class JobController extends Controller
             'educational_recruitment'=>$request->educational_recruitment,
             'id_employer'=>Auth::guard('employer')->user()->id,
         ]);
-        return redirect('/homeadmin')->with('status', 'Post Berhasil!');
+        return redirect('/admindashboard')->with('status', 'Post Berhasil!');
     }
 
     /**

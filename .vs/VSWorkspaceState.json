@@ -3,13 +3,14 @@
     "",
     "\\app",
     "\\app\\Http",
-    "\\app\\Http\\Controllers",
-    "\\app\\Providers",
+    "\\app\\Http\\Middleware",
+    "\\app\\Models",
+    "\\database\\migrations",
     "\\public",
     "\\resources",
     "\\resources\\views",
     "\\resources\\views\\User"
   ],
-  "SelectedNode": "\\resources\\views\\User\\dashboard.blade.php",
+  "SelectedNode": "\\resources\\views\\homeadmin.blade.php",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Http\Controllers\Controller;
+use App\Models\Employer;
+use App\Models\Job;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -15,7 +18,10 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('User.dashboard');
+        $job = Job::all();
+        $employer = Employer::where('id', Auth::guard('employer')->user()->id)->get();
+
+        return view('User.dashboard', compact('job', 'employer'));
     }
 
     /**
