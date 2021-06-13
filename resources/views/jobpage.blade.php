@@ -13,7 +13,7 @@
       }
 
     .box{
-        width: 800px;
+        width: 1080px;
         height: 2150px;
         border-radius: 5px;
         background-color: white;
@@ -68,26 +68,37 @@
             <img src="{{asset("images/gojek.png")}}" alt="" width="350" height="220" style="margin-top:20px;">
           </div>
           <div class="flex-grow-1 ms-3">
-            <div class="d-flex flex-column bd-highlight mb-3" style="margin-top:10px;">
-              <div class="p-2 bd-highlight" style="color:#0061A8; font-style:Poppins; font-size: 30px;">UI Designer Internship</div>
-              <div class="p-2 bd-highlight" style="font-size: 20px;">Gojek</div>
-              <div class="p-2 bd-highlight" style="font-size: 10px;">South Jakarta City, Indonesia</div>
-              <div class="p-2 bd-highlight" style="font-size: 10px;">Posted since 18 August 2021</div>
-              <div class="p-2 bd-highlight" style="font-size: 15px;">100 Students applied for this intern</div>
+            <div class="d-flex flex-column bd-highlight mb-3" style="margin-top: 0px; padding-left: 10px;">
+              <div class="p-2 bd-highlight" style="color:#0061A8; font-style:Poppins; font-size: 48px;">UI Designer Internship</div>
+              <h1><div class="p-2 bd-highlight" style="font-size: 36px;">Gojek</div></h1>
+              <div class="p-2 bd-highlight" style="font-size: 18px;">South Jakarta City, Indonesia</div>
+              <h1><div class="p-2 bd-highlight" style="font-size: 18px;">Posted since 18 August 2021</div></h1>
+              <h1><div class="p-2 bd-highlight" style="font-size: 24px;">100 Students applied for this intern</div></h1>
             </div>
           </div>
         </div>
         <hr>
         <div class="flex-grow-1 ms-3">
             <div class="d-flex flex-column bd-highlight mb-3" style="margin-top:10px;">
-              <div class="p-2 bd-highlight" style="color: black solid; font-style:Poppins; font-size: 30px;">Job Description</div>
-              <div class="p-2 bd-highlight" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue cursus ultricies habitant non. Dolor morbi nunc, vitae blandit metus. Ut non aenean nibh morbi dictum enim. At lorem lobortis leo aliquet amet, scelerisque vestibulum arcu in. Faucibus turpis egestas egestas in fames commodo a sed. Commodo est iaculis elit est hac erat libero at. Interdum phasellus maecenas aliquam pellentesque. Elit pretium in facilisi amet faucibus eget ultrices lacus.</div>
-              <div class="p-2 bd-highlight" style="font-size: 30px;">Minimum Qualifications</div>
-              <div class="p-2 bd-highlight" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue cursus ultricies habitant non. Dolor morbi nunc, vitae blandit metus. Ut non aenean nibh morbi dictum enim. At lorem lobortis leo aliquet amet, scelerisque vestibulum arcu in. Faucibus turpis egestas egestas in fames commodo a sed. Commodo est iaculis elit est hac erat libero at. Interdum phasellus maecenas aliquam pellentesque. Elit pretium in facilisi amet faucibus eget ultrices lacus.</div>
-              <div class="p-2 bd-highlight" style="font-size: 30px;">Benefit</div>
-              <div class="p-2 bd-highlight" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue </div>
+              <h1><div class="p-2 bd-highlight" style="color: black solid; font-style:Poppins; font-size: 30px;">Job Description</div></h1>
+              <div class="p-2 bd-highlight" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue cursus ultricies habitant non. Dolor morbi nunc, vitae blandit metus. Ut non aenean nibh morbi dictum enim. At lorem lobortis leo aliquet amet, scelerisque vestibulum arcu in. Faucibus turpis egestas egestas in fames commodo a sed. Commodo est iaculis elit est hac erat libero at. Interdum phasellus maecenas aliquam pellentesque. Elit pretium in facilisi amet faucibus eget ultrices lacus.</div>
+              <h1><div class="p-2 bd-highlight" style="font-size: 30px;">Minimum Qualifications</div></h1>
+              <div class="p-2 bd-highlight" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue cursus ultricies habitant non. Dolor morbi nunc, vitae blandit metus. Ut non aenean nibh morbi dictum enim. At lorem lobortis leo aliquet amet, scelerisque vestibulum arcu in. Faucibus turpis egestas egestas in fames commodo a sed. Commodo est iaculis elit est hac erat libero at. Interdum phasellus maecenas aliquam pellentesque. Elit pretium in facilisi amet faucibus eget ultrices lacus.</div>
+              <h1><div class="p-2 bd-highlight" style="font-size: 30px;">Benefit</div></h1>
+              <div class="p-2 bd-highlight" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vitae, sapien senectus ultricies mi. Tincidunt elementum feugiat ornare pharetra, ac mattis. Vitae risus aliquam, in quis dignissim diam diam. Molestie tortor sed augue </div>
+              <h1><div class="p-2 bd-highlight" style="font-size: 30px;">Job's summary</div></h1>
             </div>
-          </div>
+        </div>
+        <div class="flex-grow-1 ms-3">
+            <div class="d-flex flex-column bd-highlight mb-3" style="margin-top:5px;">
+              <div class="p-2 bd-highlight" style="font-style:Poppins; font-size: 24px;">Jobs Level</div>
+              <div class="p-2 bd-highlight" style="color:#0061A8; font-size: 16px; margin-bottom: 20px;">Internship</div>
+              <div class="p-2 bd-highlight" style="font-style:Poppins; font-size: 24px;">Job Category</div>
+              <div class="p-2 bd-highlight" style="color:#0061A8; font-size: 16px; margin-bottom: 20px;">Information Technology</div>
+              <div class="p-2 bd-highlight" style="font-style:Poppins; font-size: 24px;">Educational Requirement</div>
+              <div class="p-2 bd-highlight" style="color:#0061A8; font-size: 16px; margin-bottom: 20px;">Final semester in bachelor’s degree</div>
+            </div>
+        </div>
       </div>
     </div>
   </body>
