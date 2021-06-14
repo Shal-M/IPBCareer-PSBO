@@ -54,6 +54,15 @@ Route::get('/jobpage', function () {
     return view('jobpage');
 });
 
+Route::get('/companyprofile', function () {
+    return view('companyprofile');
+});
+
+
+Route::get('/companyedit', function () {
+    return view('companyedit');
+});
+
 Route::post('/login','App\Http\Controllers\UserController@store');
 
 Route::post('/dashboard','App\Http\Controllers\AuthController@proses_login')->name('proses_login');

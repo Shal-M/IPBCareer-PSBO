@@ -47,13 +47,6 @@
         padding-right: 50px;
       }
       
-      .form-control{
-        width: 359px;
-        height: 60px;
-        border: solid 2px black;
-        margin-bottom: 34px;
-        padding-right: 50px;
-      }
 
       #exampleFormControlTextarea1{
         width: 650px;
