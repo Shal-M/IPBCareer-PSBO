@@ -79,6 +79,15 @@ class User extends Authenticatable
 ...
 ```
 
+## Tipe Design Pengembangan
+Agile Software Development adalah metodologi pengembangan software yang didasarkan pada proses pengerjaan yang dilakukan berulang dimana, aturan dan solusi yang disepakati dilakukan dengan kolaborasi antar tiap tim secara terorganisir dan terstruktur.
+
+Metode ini lebih fleksibel dan memberikan kami feedback akan banyak hal dalam proses perancangan aplikasi dari proses design hingga proses implementasi,selain itu dengan menggunakan metode ini kami lebih cepat dan tanggap dalam proses pengambilan keputusan berdasarkan kebutuhan aplikasi jika ada perubahan dalam proses perancangannya.
+
+## Hasil dan Pembahasan
+### Use Case Diagram ###
+![PSBO CIHUY-Usecase diagram](https://user-images.githubusercontent.com/21000822/121848239-9f090680-cc9e-11eb-9aa9-419c7f2f105d.jpg)
+
 ## Desain 
 
 Home
