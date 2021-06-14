@@ -39,7 +39,7 @@ VSC kami gunakan untuk code writing yang nantinya akan kita implementasikan keda
 ### Tech Stack ###
 
 ## Konsep OOP
-## E. Konsep OOP yang digunakan
+
 ### 1. Encapsulation
 Encapsulation adalah membungkus class dan menjaga apa apa saja yang ada didalam class tersebut, baik method ataupun atribut, agar tidak dapat di akses oleh class lainnya. Untuk menjaga hal tersebut dalam Encapsulation dikenal nama Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
 
