@@ -88,6 +88,10 @@ Metode ini lebih fleksibel dan memberikan kami feedback akan banyak hal dalam pr
 ### Use Case Diagram ###
 ![PSBO CIHUY-Usecase diagram](https://user-images.githubusercontent.com/21000822/121848239-9f090680-cc9e-11eb-9aa9-419c7f2f105d.jpg)
 
+### Activity Diagram ###
+#### Activity Diagram Melihat Job dan Post Job untuk Admin ####
+![PSBO CIHUY-Activity Diagram Melihat dan Apply Job](https://user-images.githubusercontent.com/21000822/121853305-9ff16680-cca5-11eb-9eb8-462835478132.jpg)
+
 ## Desain 
 
 Home
