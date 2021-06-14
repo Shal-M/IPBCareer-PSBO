@@ -105,7 +105,10 @@ Berawal dari database yang mengambil berbagai macam data dari user dapat berupa 
 
 Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bisa di akses oleh semua user IPB Career dengan cara "Post Job" yaitu mendaftarkan job mereka di dalam "Job List" untuk diakses oleh para user yang nantinya akan melakukan "Apply job". Admin juga dapat menghilangkan job yang sudah ia daftarkan karena alasan tertentu yang nantinya langsung terhapus jika admin berkehendak seperti itu,setelah terhapus maka tidak akan ditampilkan untuk user.
 
-
+### Fitur Utama yang Dikembangkan ###
+![image](https://user-images.githubusercontent.com/60084504/120892494-ce819880-c638-11eb-8e7e-d5de72560cf6.png)
+![image](https://user-images.githubusercontent.com/60084504/120892509-e78a4980-c638-11eb-9513-5ed3702115ed.png)
+Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran
 
 ## Desain 
 
