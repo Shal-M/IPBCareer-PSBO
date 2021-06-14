@@ -18,6 +18,8 @@ IPB Career merupakan sebuah aplikasi yang berfungsi untuk membantu para mahasisw
 ## User Analysis
 Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia ingin melakukan kegiatan magang di bidang yang dia inginkan,tetapi dia tidak tahu mencari lowongan magang dimana,temannya mengusulkan menggunakan aplikasi pencarian pekerjaan yang dikhususkan untuk mahasiswa IPB yaitu IPB Career.
 
+Alfian mempunyai perusahaan startup yang baru saja diresmikan,Alfian sudah menaruh lowongan diberbagai macam website atau aplikasi pencarian kerja, tetapi alfian ingin mempunyai karyawan fresh graduate karena ingin membantu mahasiswa mahasiswa yang baru saja lulus menambah pengalaman dalam dunia kerja. Alfian di beri tahu oleh kawan bahwa IPB memiliki sistem khusus untuk mahasiswa mereka dan perusahaan resmi apapun bisa mendaftarkan diri untuk menjadi partner IPB dalam memberikan wadah pekerjaan.
+
 ## Spesifikasi Teknis dan Pengembangan
 ### Software ###
 
@@ -31,10 +33,14 @@ Figma berguna untuk melakukan brainstorming dalam pembuatan aplikasi,selain itu 
 VSC kami gunakan untuk code writing yang nantinya akan kita implementasikan kedalam aplikasi
 
 #### XAMPP ####
+XAMPP kami gunakan untuk
 
 #### Laravel ####
+Laravel kami gunakan untuk
 
 ### Hardware ###
+
+
 
 ### Tech Stack ###
 
@@ -108,7 +114,8 @@ Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bi
 ### Fitur Utama yang Dikembangkan ###
 ![image](https://user-images.githubusercontent.com/60084504/120892494-ce819880-c638-11eb-8e7e-d5de72560cf6.png)
 ![image](https://user-images.githubusercontent.com/60084504/120892509-e78a4980-c638-11eb-9513-5ed3702115ed.png)
-Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran
+
+Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran. Selain itu user juga melakukan pencarian terhadap job yang mereka inginkan secara spesifik, dengan cara menuliskan job impian mereka di kotak "Search" dan dengan sekali klik maka hasil pencarian akan memunculkan job yang user inginkan.
 
 ## Desain 
 
