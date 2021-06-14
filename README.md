@@ -95,6 +95,10 @@ Metode ini lebih fleksibel dan memberikan kami feedback akan banyak hal dalam pr
 ### Class Diagram ###
 ![PSBO CIHUY-Class diagram](https://user-images.githubusercontent.com/21000822/121865704-1fd1fd80-ccb3-11eb-9ffa-b25d44fb8b09.jpg)
 
+### Class Diagram ###
+![PSBO CIHUY-ERD](https://user-images.githubusercontent.com/21000822/121867857-3da06200-ccb5-11eb-8c0e-fcf46a7e1479.jpg)
+
+
 ## Desain 
 
 Home
