@@ -20,7 +20,7 @@ Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia 
 
 ## Spesifikasi Teknis dan Pengembangan
 ### Software ###
-![github logo](https://user-images.githubusercontent.com/21000822/121840418-0ddf6300-cc91-11eb-920d-b71bbed6c998/200x150.png)
+![picture alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AOcticons-mark-github.svg&psig=AOvVaw1tpw3Xan6mNzL6Esfm7_T-&ust=1623732458954000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjLtY7ll_ECFQAAAAAdAAAAABAD/200x150 "Github Logo")
 #### Github ####
 Github berguna untuk melakukan kolaborasi antar anggota agar memudahkan kita mengerjakan projek ini serta memudahkan kita menggabungkan pekerjaan antar anggota yang sudah di bagikan bagian pekerjaannya.
 
