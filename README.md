@@ -1,23 +1,18 @@
-# LAPORAN PROJEK AKHIR PENGEMBANGAN SISTEM BERORIENTASI OBJEK
-    
-<p align ="center">
+<h1 align="center">LAPORAN PROJEK AKHIR PENGEMBANGAN SISTEM BERORIENTASI OBJEK</h1>
+<h2 align="center">APLIKASI IPB CAREER</h2>
+
+<p align="center">
 <img src="https://user-images.githubusercontent.com/60084504/121894160-02e80980-cd49-11eb-8f7d-a27fa118a6d5.png" width="200" height="200" />
+ 
+<h4 align="center">Praktikum Paralel 2 | Kelompok 5 </h4>
 
-KELOMPOK 5
 
-Alfian Arief Santoso - G64180061 - Frontend Developer
-
-Muhammad Faishal Mumtaz - G64180093 - Backend Developer
-
-Ramadhan Wiradikusuma - G64180096 - Project Manager
-
-Ananda Alfarishi Anwar - G64180097 - UI/UX Designer
-
-## IPB CAREER
+## Deskripsi Aplikasi
 
 IPB Career merupakan sebuah aplikasi yang berfungsi untuk membantu para mahasiswa maupun alumni IPB untuk mendapatkan kesempatan magang atau kerja secara full time. Aplikasi ini akan menginformasikan mengenai tempat magang maupun lowongan kerja bagi Civitas IPB yang memiliki minat sesuai dengan bidangnya. Civitas IPB juga bisa langsung apply internship atau full time job yang diinginkan sesuai keinginan masing masing dengan mengirimkan proposal sesuai syarat yang diberikan dan juga CV pribadi.
 
 ## User Analysis
+
 Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia ingin melakukan kegiatan magang di bidang yang dia inginkan,tetapi dia tidak tahu mencari lowongan magang dimana,temannya mengusulkan menggunakan aplikasi pencarian pekerjaan yang dikhususkan untuk mahasiswa IPB yaitu IPB Career.
 
 Alfian mempunyai perusahaan startup yang baru saja diresmikan,Alfian sudah menaruh lowongan diberbagai macam website atau aplikasi pencarian kerja, tetapi alfian ingin mempunyai karyawan fresh graduate karena ingin membantu mahasiswa mahasiswa yang baru saja lulus menambah pengalaman dalam dunia kerja. Alfian di beri tahu oleh kawan bahwa IPB memiliki sistem khusus untuk mahasiswa mereka dan perusahaan resmi apapun bisa mendaftarkan diri untuk menjadi partner IPB dalam memberikan wadah pekerjaan.
@@ -42,9 +37,11 @@ Laravel kami gunakan untuk
 
 ### Hardware ###
 
-
+(masih belum)
 
 ### Tech Stack ###
+
+(masih belum)
 
 ## Konsep OOP
 
@@ -119,7 +116,7 @@ Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bi
 
 Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran. Selain itu user juga melakukan pencarian terhadap job yang mereka inginkan secara spesifik, dengan cara menuliskan job impian mereka di kotak "Search" dan dengan sekali klik maka hasil pencarian akan memunculkan job yang user inginkan.
 
-## Desain 
+## Hasil Implementasi
 
 Home
 ![image](https://user-images.githubusercontent.com/60084504/120892445-8bbfc080-c638-11eb-97db-58bdbed5e34f.png)
@@ -143,5 +140,14 @@ Profile page
 ![image](https://user-images.githubusercontent.com/60084504/120892618-739c7100-c639-11eb-88fc-d21be6150684.png)
 Edit Profile Page
 ![image](https://user-images.githubusercontent.com/60084504/120892631-7eef9c80-c639-11eb-85fa-593dcc4d295b.png)
+    
+ ## Saran
 
-
+(masih belum)
+    
+|Nama|NIM|Job Desc|
+|----|---|--------|
+|Alfian Arief Santoso | G64180061 | Frontend Developer|
+|Muhammad Faishal Mumtaz | G64180093 | Backend Developer|
+|Ramadhan Wiradikusuma | G64180096 | Project Manager|
+|Ananda Alfarishi Anwar | G64180097 | UI/UX Designer|
