@@ -19,7 +19,7 @@ IPB Career merupakan sebuah aplikasi yang berfungsi untuk membantu para mahasisw
 Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia ingin melakukan kegiatan magang di bidang yang dia inginkan,tetapi dia tidak tahu mencari lowongan magang dimana,temannya mengusulkan menggunakan aplikasi pencarian pekerjaan yang dikhususkan untuk mahasiswa IPB yaitu IPB Career.
 
 ## Spesifikasi Teknis dan Pengembangan
-Markup : 1. A numbered list
+1. Software
 
 
 ## Desain 
