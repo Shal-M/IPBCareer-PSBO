@@ -1,5 +1,7 @@
 # LAPORAN PROJEK AKHIR PENGEMBANGAN SISTEM BERORIENTASI OBJEK
-
+    
+<p align ="center">
+<img src="https://user-images.githubusercontent.com/60084504/121894160-02e80980-cd49-11eb-8f7d-a27fa118a6d5.png" width="200" height="200" />
 
 KELOMPOK 5
 
