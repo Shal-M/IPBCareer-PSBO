@@ -95,8 +95,16 @@ Metode ini lebih fleksibel dan memberikan kami feedback akan banyak hal dalam pr
 ### Class Diagram ###
 ![PSBO CIHUY-Class diagram](https://user-images.githubusercontent.com/21000822/121865704-1fd1fd80-ccb3-11eb-9ffa-b25d44fb8b09.jpg)
 
-### Class Diagram ###
+### Entity Relationship Diagram ###
 ![PSBO CIHUY-ERD](https://user-images.githubusercontent.com/21000822/121867857-3da06200-ccb5-11eb-8c0e-fcf46a7e1479.jpg)
+
+### System Architecture ###
+![PSBO CIHUY-Page-11](https://user-images.githubusercontent.com/21000822/121886800-b958d980-ccca-11eb-8629-19de5d043371.jpg)
+
+Berawal dari database yang mengambil berbagai macam data dari user dapat berupa atribut utama seperti "Nama" , "Email" , "Alamat" dan atribut atribut lain yang merupakan bagian entitas dari user. User melakukan request terhadap server yang nantinya server akan merespon sesuai dengan request yang diingkan, tampilan yang di berikan dari server sudah data yang telah di ambil dari database,jika user ingin melihat job,maka seluruh job yang ada di database akan di tampilkan oleh system.
+
+Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bisa di akses oleh semua user IPB Career dengan cara "Post Job" yaitu mendaftarkan job mereka di dalam "Job List" untuk diakses oleh para user yang nantinya akan melakukan "Apply job". Admin juga dapat menghilangkan job yang sudah ia daftarkan karena alasan tertentu yang nantinya langsung terhapus jika admin berkehendak seperti itu,setelah terhapus maka tidak akan ditampilkan untuk user.
+
 
 
 ## Desain 
