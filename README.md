@@ -20,9 +20,64 @@ Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia 
 
 ## Spesifikasi Teknis dan Pengembangan
 ### Software ###
-![picture alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AOcticons-mark-github.svg&psig=AOvVaw1tpw3Xan6mNzL6Esfm7_T-&ust=1623732458954000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjLtY7ll_ECFQAAAAAdAAAAABAD/200x150 "Github Logo")
+
 #### Github ####
 Github berguna untuk melakukan kolaborasi antar anggota agar memudahkan kita mengerjakan projek ini serta memudahkan kita menggabungkan pekerjaan antar anggota yang sudah di bagikan bagian pekerjaannya.
+
+#### Figma ####
+Figma berguna untuk melakukan brainstorming dalam pembuatan aplikasi,selain itu kami gunakan untuk melakukan design aplikasi tersebut.
+
+#### Visual Studio Code ####
+VSC kami gunakan untuk code writing yang nantinya akan kita implementasikan kedalam aplikasi
+
+#### XAMPP ####
+
+#### Laravel ####
+
+### Hardware ###
+
+### Tech Stack ###
+
+## Konsep OOP
+## E. Konsep OOP yang digunakan
+### 1. Encapsulation
+Encapsulation adalah membungkus class dan menjaga apa apa saja yang ada didalam class tersebut, baik method ataupun atribut, agar tidak dapat di akses oleh class lainnya. Untuk menjaga hal tersebut dalam Encapsulation dikenal nama Hak Akses Modifier yang terdiri dari : Public, Private, dan Protected.
+
+```text
+...
+class DashboardController extends Controller
+{
+    public function index() {
+        $total_buku = \App\Buku::all()->count();
+        $total_kunjungan = \App\KunjunganMasyarakat::all()->count();
+
+        return view('dashboard', compact('total_buku', 'total_kunjungan'));
+    }
+}
+...
+```
+### 2. Inheritance
+Penggunaan inheritance dalam OOP adalah untuk mengklasifikasikan object dalam program sesuai karakteristik umum dan fungsinya yang membuat pekerjaan bersama object lebih mudah dan lebih intuitif.
+```text
+...
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+
+class User extends Authenticatable
+{
+    use Notifiable;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name', 'email', 'password',
+    ];
+...
+```
 
 ## Desain 
 
