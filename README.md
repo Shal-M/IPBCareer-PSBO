@@ -15,6 +15,12 @@ Ananda Alfarishi Anwar - G64180097 - UI/UX Designer
 
 IPB Career merupakan sebuah aplikasi yang berfungsi untuk membantu para mahasiswa maupun alumni IPB untuk mendapatkan kesempatan magang atau kerja secara full time. Aplikasi ini akan menginformasikan mengenai tempat magang maupun lowongan kerja bagi Civitas IPB yang memiliki minat sesuai dengan bidangnya. Civitas IPB juga bisa langsung apply internship atau full time job yang diinginkan sesuai keinginan masing masing dengan mengirimkan proposal sesuai syarat yang diberikan dan juga CV pribadi.
 
+## User Analysis
+Faishal adalah seorang mahasiswa tingkat akhir di Institut Pertanian Bogor, dia ingin melakukan kegiatan magang di bidang yang dia inginkan,tetapi dia tidak tahu mencari lowongan magang dimana,temannya mengusulkan menggunakan aplikasi pencarian pekerjaan yang dikhususkan untuk mahasiswa IPB yaitu IPB Career.
+
+#Spesifikasi Teknis dan Pengembangan
+
+
 ## Desain 
 
 Home
