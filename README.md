@@ -33,7 +33,7 @@ VSC kami gunakan untuk code writing yang nantinya akan kita implementasikan keda
 XAMPP kami gunakan untuk membuat server lokal yang kami gunakan untuk testing hasil implementasi 
 
 #### Laravel ####
-Laravel kami gunakan untuk framework kami,karena kami menggunakan php dalam pengembangan web ini jadi laravel adalah pilihan yang sesuai 
+Laravel kami gunakan untuk framework kami,karena kami menggunakan php dalam pengembangan web ini jadi laravel adalah pilihan yang sesuai
 
 ### Hardware ###
 * Processor   : I5 2500
@@ -43,9 +43,13 @@ Laravel kami gunakan untuk framework kami,karena kami menggunakan php dalam peng
 * Monitor     : Samsung 1366 x 768 60Hz
 * OS          : Windows 10
 
-### Tech Stack ###
+### Technology Stack ###
 
-(masih belum)
+#### Laravel ####
+#### PHP
+#### Blade
+#### Shell
+
 
 ## Konsep OOP
 
@@ -54,28 +58,29 @@ Encapsulation adalah membungkus class dan menjaga apa apa saja yang ada didalam 
 
 ```text
 ...
-class DashboardController extends Controller
+class UserController extends Controller
 {
-    public function index() {
-        $total_buku = \App\Buku::all()->count();
-        $total_kunjungan = \App\KunjunganMasyarakat::all()->count();
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $job = Job::all();
+        $employer = Employer::where('id', Auth::guard('employer')->user()->id)->get();
 
-        return view('dashboard', compact('total_buku', 'total_kunjungan'));
+        return view('User.dashboard', compact('job', 'employer'));
     }
-}
 ...
 ```
 ### 2. Inheritance
 Penggunaan inheritance dalam OOP adalah untuk mengklasifikasikan object dalam program sesuai karakteristik umum dan fungsinya yang membuat pekerjaan bersama object lebih mudah dan lebih intuitif.
 ```text
 ...
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-
 class User extends Authenticatable
 {
-    use Notifiable;
+    use HasFactory, Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -83,7 +88,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name',
+        'email',
+        'password',
     ];
 ...
 ```
