@@ -30,14 +30,18 @@ Figma berguna untuk melakukan brainstorming dalam pembuatan aplikasi,selain itu 
 VSC kami gunakan untuk code writing yang nantinya akan kita implementasikan kedalam aplikasi
 
 #### XAMPP ####
-XAMPP kami gunakan untuk
+XAMPP kami gunakan untuk membuat server lokal yang kami gunakan untuk testing hasil implementasi 
 
 #### Laravel ####
-Laravel kami gunakan untuk
+Laravel kami gunakan untuk framework kami,karena kami menggunakan php dalam pengembangan web ini jadi laravel adalah pilihan yang sesuai 
 
 ### Hardware ###
+Processor   : I5 2500
+VGA         : NVIDIA 650 GTX
+RAM         : 8 GB
+PSU         : 700W
 
-(masih belum)
+
 
 ### Tech Stack ###
 
@@ -142,8 +146,10 @@ Edit Profile Page
 ![image](https://user-images.githubusercontent.com/60084504/120892631-7eef9c80-c639-11eb-85fa-593dcc4d295b.png)
     
  ## Saran
+Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
+Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
+Untuk pengembangan selanjutnya, selain fitur utama bisa dikembangkan untuk melengkapi kinerja website 
 
-(masih belum)
     
 |Nama|NIM|Job Desc|
 |----|---|--------|
