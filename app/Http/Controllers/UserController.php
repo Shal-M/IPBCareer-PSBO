@@ -22,7 +22,7 @@ class UserController extends Controller
         $job = DB::table('jobs')->join('employer', 'jobs.id_employer', '=', 'employer.id')
         ->select('jobs.id','jobs.updated_at','jobs.jobs_name','jobs.phonenumber','jobs.email','jobs.jobs_desc','jobs.minimum_qualification',
                 'jobs.Benefits','jobs.jobs_level','jobs.jobs_category','jobs.jobs_vacancy','jobs.jobs_industry','jobs.educational_recruitment',
-                'employer.company_name','employer.company_employer_name','employer.company_type','employer.company_address')->get();
+                'employer.company_name','employer.company_employer_name','employer.company_type','employer.company_address')->orderby('id','desc')->get();
 
         //return ($job);
         return view('User.dashboard', compact('job'));
