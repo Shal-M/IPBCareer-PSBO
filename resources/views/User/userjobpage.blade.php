@@ -99,6 +99,16 @@
               <div class="p-2 bd-highlight" style="color:#0061A8; font-size: 16px; margin-bottom: 20px;">{{$job[0]->educational_recruitment}}</div>
             </div>
         </div>
+        <div class="d-flex flex-row-reverse container">
+          <form method="POST" action="/applyjob">
+            @csrf
+                <div class="p-2"><button class="btn btn-primary rounded mx-auto d-block button" style="background-color:#0061A8; font-color:#F9F7F7;" type="submit">Apply Now</button></div>
+                <div class="form-group">
+                     <input type="hidden" id="id_jobs" name="id_jobs" value={{$job[0]->id}}>
+                </div>
+          </form>
+          <div class="p-2"><a class="btn btn-outline-light" href="#" role="button" style="color:#0A70BB">Add Favorite</a></div>
+        </div>
       </div>
     </div>
   </body>

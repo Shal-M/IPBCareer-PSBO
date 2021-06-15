@@ -3,14 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use App\Http\Controllers\Controller;
-use App\Models\Employer;
-use App\Models\Job;
-use Illuminate\Support\Facades\DB;
+use App\Models\ApplyJob;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
-class UserController extends Controller
+class AppliesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,13 +16,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $job = DB::table('jobs')->join('employer', 'jobs.id_employer', '=', 'employer.id')
-        ->select('jobs.id','jobs.updated_at','jobs.jobs_name','jobs.phonenumber','jobs.email','jobs.jobs_desc','jobs.minimum_qualification',
-                'jobs.Benefits','jobs.jobs_level','jobs.jobs_category','jobs.jobs_vacancy','jobs.jobs_industry','jobs.educational_recruitment',
-                'employer.company_name','employer.company_employer_name','employer.company_type','employer.company_address')->get();
-
-        //return ($job);
-        return view('User.dashboard', compact('job'));
+        
     }
 
     /**
@@ -35,7 +26,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        
+        //
     }
 
     /**
@@ -46,21 +37,13 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'name'=>'required',
-            'email'=>'required',
-            'password'=>'required',
-            'retype-password'=>'required_with:password|same:password',
-        ],
-        ['retype-password.required'=>'Password Tidak Sama',
+        
+        ApplyJob::create([
+            'id_jobs'=>$request->id_jobs,
+            'id_users'=>Auth::user()->id,
         ]);
 
-        User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => bcrypt($request->password)
-        ]);
-        return view('/login');
+        return redirect('/dashboard')->with('status', 'Apply Berhasil!');
     }
 
     /**
@@ -71,10 +54,12 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $job = Job::where('id', $id)->get();
-        $employer = Employer::where('id', $job[0]->id_employer)->get();
+        $apply = ApplyJob::where('id_jobs', $id)->join('users', 'applies.id_users', '=', 'users.id')
+        ->select('applies.id', 'applies.created_at', 'users.id', 'users.name',
+                'users.email')->get();
 
-        return view('User.userjobpage', compact('job', 'employer'));
+
+        return view('jobappliers', compact('apply'));
     }
 
     /**

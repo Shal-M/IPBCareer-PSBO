@@ -99,7 +99,7 @@
               <div class="p-2 bd-highlight" style="font-size: 20px;">{{$employer[0]->company_name}}</div>
               <div class="p-2 bd-highlight text-wrap">{{$j->jobs_desc}}</div>
                <div class="d-flex align-items-end flex-column">
-                  <a href="#" style="color: #000000; font-style:Poppins; margin-bottom:20px; margin-right:10px;">View Appliers</a>
+                  <a href="{{url('/viewappliers/'.$j->id)}}" style="color: #000000; font-style:Poppins; margin-bottom:20px; margin-right:10px;">View Appliers</a>
                 </div>
             </div>
           </div>

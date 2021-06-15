@@ -72,12 +72,14 @@
             </tr>
           </thead>
           <tbody>
+          @foreach ($apply as $a)
             <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <th scope="row">{{$loop->iteration}}</th>
+              <td>{{$a->created_at}}</td>
+              <td>{{$a->name}}</td>
+              <td>{{$a->email}}</td>
             </tr>
+            @endforeach
           </tbody>
         </table>
         </div>

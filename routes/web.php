@@ -54,10 +54,6 @@ Route::get('/companyprofile', function () {
     return view('companyprofile');
 });
 
-Route::get('/viewappliers', function () {
-    return view('jobappliers');
-});
-
 Route::get('/companyedit', function () {
     return view('companyedit');
 });
@@ -70,6 +66,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::group(['middleware' => ['cek_login']], function () {
         Route::get('/dashboard','App\Http\Controllers\UserController@index');
         Route::get('/userjobpage/{id}','App\Http\Controllers\UserController@show');
+        Route::post('applyjob','App\Http\Controllers\AppliesController@store');
+        Route::get('/logout','App\Http\Controllers\AuthController@logout')->name('logout');
      });
 });
 
@@ -85,5 +83,6 @@ Route::group(['middleware'=>['auth']], function () {
         Route::get('/admindashboard','App\Http\Controllers\EmployerController@index');
         Route::post('/postjob','App\Http\Controllers\JobController@store');
         Route::get('/jobpage/{id}','App\Http\Controllers\EmployerController@show');
+        Route::get('/viewappliers/{id}','App\Http\Controllers\AppliesController@show');
      });
 });
