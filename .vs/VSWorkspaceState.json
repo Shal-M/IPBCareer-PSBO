@@ -3,14 +3,14 @@
     "",
     "\\app",
     "\\app\\Http",
+    "\\app\\Http\\Controllers",
     "\\app\\Http\\Middleware",
     "\\app\\Models",
-    "\\database\\migrations",
     "\\public",
     "\\resources",
     "\\resources\\views",
     "\\resources\\views\\User"
   ],
-  "SelectedNode": "\\resources\\views\\homeadmin.blade.php",
+  "SelectedNode": "\\app\\Http\\Controllers\\JobController.php",
   "PreviewInSolutionExplorer": false
 }

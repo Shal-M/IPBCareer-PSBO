@@ -67,7 +67,10 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $job = Job::where('id', $id)->get();
+        $employer = Employer::where('id', $job[0]->id_employer)->get();
+
+        return view('User.userjobpage', compact('job', 'employer'));
     }
 
     /**
