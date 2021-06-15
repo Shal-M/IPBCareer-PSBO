@@ -146,9 +146,9 @@ Edit Profile Page
 ![image](https://user-images.githubusercontent.com/60084504/120892631-7eef9c80-c639-11eb-85fa-593dcc4d295b.png)
     
  ## Saran
-Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
-Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
-Untuk pengembangan selanjutnya, selain fitur utama bisa dikembangkan untuk melengkapi kinerja website 
+* Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
+* Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
+* Untuk pengembangan selanjutnya, selain fitur utama bisa dikembangkan untuk melengkapi kinerja website 
 
     
 |Nama|NIM|Job Desc|
