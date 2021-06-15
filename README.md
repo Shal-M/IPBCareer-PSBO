@@ -36,12 +36,12 @@ XAMPP kami gunakan untuk membuat server lokal yang kami gunakan untuk testing ha
 Laravel kami gunakan untuk framework kami,karena kami menggunakan php dalam pengembangan web ini jadi laravel adalah pilihan yang sesuai 
 
 ### Hardware ###
-Processor   : I5 2500
-VGA         : NVIDIA 650 GTX
-RAM         : 8 GB
-PSU         : 700W
-
-
+* Processor   : I5 2500
+* VGA         : NVIDIA 650 GTX
+* RAM         : 8 GB
+* PSU         : 700W
+* Monitor     : Samsung 1366 x 768 60Hz
+* OS          : Windows 10
 
 ### Tech Stack ###
 
@@ -153,7 +153,7 @@ Edit Profile Page
     
 |Nama|NIM|Job Desc|
 |----|---|--------|
-|Alfian Arief Santoso | G64180061 | Frontend Developer|
-|Muhammad Faishal Mumtaz | G64180093 | Backend Developer|
+|Alfian Arief Santoso | G64180061 | Frontend Developer| 
+|Muhammad Faishal Mumtaz | G64180093 | Backend Developer| 
 |Ramadhan Wiradikusuma | G64180096 | Project Manager|
-|Ananda Alfarishi Anwar | G64180097 | UI/UX Designer|
+|Ananda Alfarishi Anwar | G64180097 | UI/UX Designer| 
