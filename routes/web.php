@@ -46,6 +46,10 @@ Route::get('/usersignuppage', function () {
     return view('signup');
 });
 
+Route::get('/homeadmin', function () {
+    return view('homeadmin');
+});
+
 Route::get('/postjob', function () {
     return view('postjob');
 });

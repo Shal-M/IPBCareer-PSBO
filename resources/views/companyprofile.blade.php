@@ -33,7 +33,7 @@
         <div class="float-lg-start" style="font-size: 36px;">IPB CAREER</div><br>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:24px; font-family: poppins; color:#1B1717">Home</a>
+            <a class="nav-link" href="{{url('/homeadmin')}}" style="font-size:24px; font-family: poppins; color:#1B1717">Home</a>
           </li>
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -37,7 +37,10 @@
       </div>
     </nav>
 
-    <h1 style="font-size:38px; color:#B4D7EE; font-family: Poppins; line-height: 57px;" width:"665" height:"114" class="fw-bold">Kerja selain di bank sekarang mudah!</h1>
+    <div class="mb-auto p-2 bd-highlight">
+    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet velit donec fermentum fermentum sed at eget cursus. Nulla duis ut.
+    </p>
+  </div>
     <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="408px">
     <!-- Optional JavaScript; choose one of the two! -->
 
