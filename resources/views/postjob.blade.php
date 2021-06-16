@@ -36,7 +36,6 @@
         height: 60px;
         border: solid 2px black;
         margin-bottom: 34px;
-
       }
 
       .form-control{
@@ -73,6 +72,9 @@
         <div class="float-lg-start" style="font-size: 36px;">IPB CAREER</div><br>
         <ul class="nav justify-content-end">
           <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" href="{{url('/homeadmin')}}" style="font-size:24px; font-family: poppins; color:#1B1717">Home</a>
+          </li>
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="{{asset("images/carbon_user-avatar.png")}}" alt="" width="45" height="45">
           </a>
@@ -164,7 +166,7 @@
                   </select>
                 </div>
             </div>
-            <input class="form-control form rounded mx-auto d-block float-lg-start"  id="required" type="text" name="educational_recruitment" placeholder="Educational Requirement" aria-label="default input example">
+            <input class="form-control form rounded mx-auto d-block float-lg-start"  id="examinput" type="text" name="educational_recruitment" placeholder="Educational Requirement" aria-label="default input example">
           </div>
           <div class="row justify-content-around">
             <div class="col-4">
