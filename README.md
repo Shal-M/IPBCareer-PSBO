@@ -132,9 +132,9 @@ Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mend
 Home
 ![image](https://user-images.githubusercontent.com/60084504/120892445-8bbfc080-c638-11eb-97db-58bdbed5e34f.png)
 Log in page
-![image](https://user-images.githubusercontent.com/60084504/120892469-ac881600-c638-11eb-8eea-9beefe3234df.png)
+![Log in page (1)](https://user-images.githubusercontent.com/21000822/122156972-e61e0580-ce1e-11eb-9211-7008b233276a.png)
 Sign up page
-![image](https://user-images.githubusercontent.com/60084504/120892472-b14cca00-c638-11eb-850d-61b41bf5cd67.png)
+![Sign up page (1)](https://user-images.githubusercontent.com/21000822/122156978-e8805f80-ce1e-11eb-820b-5d7e86375e69.png)
 Categories
 ![image](https://user-images.githubusercontent.com/60084504/120892475-b873d800-c638-11eb-8ed2-b7e90b5e3a52.png)
 Job Preferences
