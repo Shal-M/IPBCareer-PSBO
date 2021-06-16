@@ -61,7 +61,7 @@
   <div class="p-5 flex-fill bd-highlight" style="background-color:#0A70BB;flex: 3;align-items: stretch;">
     <div class="d-flex align-items-start flex-column bd-highlight mb-1">
   <div class="mb-auto p-2 bd-highlight">
-    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet velit donec fermentum fermentum sed at eget cursus. Nulla duis ut.
+    <p class="content">IPB Career akan selalu memberikan semua yang kalian butuhkan untuk meningkatkan kualitas diri anda
     </p>
   </div>
   

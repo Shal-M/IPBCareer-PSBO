@@ -82,7 +82,7 @@
               <div class="p-2 bd-highlight" style="color:#0061A8; font-style:Poppins; font-size: 30px;">
                 <a href="{{url('/userjobpage/'.$j->id)}}" style="color:#0061A8; font-style:Poppins; font-size: 30px;">{{$j->jobs_name}}</a></div>
               <div class="p-2 bd-highlight" style="font-size: 20px;">{{$j->company_name}}</div>
-              <div class="p-2 bd-highlight text-wrap" style="">{{$j->jobs_desc}}</div>
+              <div class="p-2 bd-highlight text-wrap" style="">{{$j->jobs_level}}</div>
             </div>
           </div>
         </div>

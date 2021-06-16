@@ -3,8 +3,7 @@
     "",
     "\\app",
     "\\app\\Http",
-    "\\app\\Http\\Middleware",
-    "\\app\\Models",
+    "\\app\\Http\\Controllers",
     "\\database",
     "\\database\\migrations",
     "\\public",
@@ -12,6 +11,6 @@
     "\\resources\\views",
     "\\resources\\views\\User"
   ],
-  "SelectedNode": "\\resources\\views\\jobappliers.blade.php",
+  "SelectedNode": "\\app\\Http\\Controllers\\AuthController.php",
   "PreviewInSolutionExplorer": false
 }

@@ -7,7 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
+    <style>
+    .content{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 40px;
+        color: #F9F7F7;
+    }
+    .text1{
+        color: #b4d7ee;
+        font-size: 38px;
+    }
+    </style>
     <title>IPB Career</title>
   </head>
   <body style="background-color:#0061A8">
@@ -38,10 +52,11 @@
     </nav>
 
     <div class="mb-auto p-2 bd-highlight">
-    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet velit donec fermentum fermentum sed at eget cursus. Nulla duis ut.
+    <p class="text1 container">Kerja selain di bank sekarang mudah!</p>
+    <p class="content container">Gunakan Website resmi IPB Career<br /> untuk menunjang kualitas diri<br /> kalian untuk masa depan 
     </p>
   </div>
-    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="408px">
+    <img class="rounded float-end" src="{{asset("images/1.png")}}" alt="" width="532px" height="392px" style="margin-top: 7.82px; mix-blend-mode: normal;">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -19,9 +19,9 @@ class CreateJobsTable extends Migration
             $table->string('jobs_name');
             $table->string('phonenumber');
             $table->string('email');
-            $table->string('jobs_desc');
-            $table->string('minimum_qualification');
-            $table->string('Benefits');
+            $table->longtext('jobs_desc');
+            $table->longtext('minimum_qualification');
+            $table->longtext('Benefits');
             $table->string('jobs_level');
             $table->string('jobs_category');
             $table->string('jobs_vacancy');
