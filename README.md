@@ -142,7 +142,7 @@ Job Preferences
 Add job preferences
 ![image](https://user-images.githubusercontent.com/60084504/120892490-c6295d80-c638-11eb-8c7a-58db5330c52c.png)
 Search home page
-![image](https://user-images.githubusercontent.com/60084504/120892494-ce819880-c638-11eb-8e7e-d5de72560cf6.png)
+![Search home page (1)](https://user-images.githubusercontent.com/21000822/122157202-490f9c80-ce1f-11eb-9c41-58a383c761cf.png)
 Favorites
 ![image](https://user-images.githubusercontent.com/60084504/120892499-d6d9d380-c638-11eb-82b8-8a89593ffce3.png)
 Job page
