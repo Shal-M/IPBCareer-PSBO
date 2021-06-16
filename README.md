@@ -127,7 +127,7 @@ Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bi
 
 Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran. Selain itu user juga melakukan pencarian terhadap job yang mereka inginkan secara spesifik, dengan cara menuliskan job impian mereka di kotak "Search" dan dengan sekali klik maka hasil pencarian akan memunculkan job yang user inginkan.
 
-## Hasil Implementasi
+## Design
 
 Home
 ![image](https://user-images.githubusercontent.com/60084504/120892445-8bbfc080-c638-11eb-97db-58bdbed5e34f.png)
@@ -149,7 +149,10 @@ Job page
 ![image](https://user-images.githubusercontent.com/60084504/120892509-e78a4980-c638-11eb-9513-5ed3702115ed.png)
 Profile page
 ![image](https://user-images.githubusercontent.com/60084504/120892618-739c7100-c639-11eb-88fc-d21be6150684.png)
-    
+
+## Hasil Implementasi
+
+
  ## Saran
 * Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
 * Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
