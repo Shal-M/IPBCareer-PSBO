@@ -142,7 +142,7 @@ Job Preferences
 Search home page
 ![Search home page (1)](https://user-images.githubusercontent.com/21000822/122157202-490f9c80-ce1f-11eb-9c41-58a383c761cf.png)
 Favorites
-![image](https://user-images.githubusercontent.com/60084504/120892499-d6d9d380-c638-11eb-82b8-8a89593ffce3.png)
+![Favorites](https://user-images.githubusercontent.com/21000822/122169216-00151380-ce32-11eb-8015-6b9b887333ad.png)
 Job page
 ![Job page (1)](https://user-images.githubusercontent.com/21000822/122157115-241b2980-ce1f-11eb-83c3-f122a4d3a36a.png)
 Profile page
