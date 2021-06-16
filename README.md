@@ -136,7 +136,7 @@ Log in page
 Sign up page
 ![Sign up page (1)](https://user-images.githubusercontent.com/21000822/122156978-e8805f80-ce1e-11eb-820b-5d7e86375e69.png)
 Categories
-![image](https://user-images.githubusercontent.com/60084504/120892475-b873d800-c638-11eb-8ed2-b7e90b5e3a52.png)
+![Cateogries](https://user-images.githubusercontent.com/21000822/122169060-d956dd00-ce31-11eb-8dc1-313c57983347.png)
 Job Preferences
 ![image](https://user-images.githubusercontent.com/60084504/120892480-c0337c80-c638-11eb-87f4-46aba4e65270.png)
 Search home page
