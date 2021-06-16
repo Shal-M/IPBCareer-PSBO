@@ -139,8 +139,6 @@ Categories
 ![image](https://user-images.githubusercontent.com/60084504/120892475-b873d800-c638-11eb-8ed2-b7e90b5e3a52.png)
 Job Preferences
 ![image](https://user-images.githubusercontent.com/60084504/120892480-c0337c80-c638-11eb-87f4-46aba4e65270.png)
-Add job preferences
-![image](https://user-images.githubusercontent.com/60084504/120892490-c6295d80-c638-11eb-8c7a-58db5330c52c.png)
 Search home page
 ![Search home page (1)](https://user-images.githubusercontent.com/21000822/122157202-490f9c80-ce1f-11eb-9c41-58a383c761cf.png)
 Favorites
