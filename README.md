@@ -152,14 +152,30 @@ Profile page
 
 
 ## Hasil Implementasi
-
+Home
+![home](https://user-images.githubusercontent.com/60084504/122162766-456f2a80-ce9e-11eb-923d-c4bf3d003b34.jpg)
+Login
+![login](https://user-images.githubusercontent.com/60084504/122162798-4f912900-ce9e-11eb-8896-91e94ed3d8a8.jpg)
+Sign Up
+![sign up](https://user-images.githubusercontent.com/60084504/122162801-53bd4680-ce9e-11eb-907c-3845d029b58d.jpg)
+Dashboard
+![job desc2 profile overlay](https://user-images.githubusercontent.com/60084504/122162864-73546f00-ce9e-11eb-808f-a87301a92b6e.jpg)
+Job Description
+![job desc](https://user-images.githubusercontent.com/60084504/122162867-74859c00-ce9e-11eb-9d4f-16e64db1a665.jpg)
+Job Page
+![userjobpage](https://user-images.githubusercontent.com/60084504/122162949-9bdc6900-ce9e-11eb-900f-81f869ad8dd1.jpg)
+Post Job
+![postjob2](https://user-images.githubusercontent.com/60084504/122162890-80715e00-ce9e-11eb-98a9-bfc2809511d5.jpg)
+![postjob](https://user-images.githubusercontent.com/60084504/122162896-823b2180-ce9e-11eb-9216-ce0c5a44c4e6.jpg)
+Viem Apply 
+![viewaplly](https://user-images.githubusercontent.com/60084504/122162922-8e26e380-ce9e-11eb-9017-ddffa638b7f7.jpg)
 
  ## Saran
 * Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
 * Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
 * Untuk pengembangan selanjutnya, selain fitur utama bisa dikembangkan untuk melengkapi kinerja website 
 
-    
+## Anggota Kelompok 5
 |Nama|NIM|Job Desc|
 |----|---|--------|
 |Alfian Arief Santoso | G64180061 | Frontend Developer| 
