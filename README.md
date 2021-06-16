@@ -148,7 +148,8 @@ Favorites
 Job page
 ![image](https://user-images.githubusercontent.com/60084504/120892509-e78a4980-c638-11eb-9513-5ed3702115ed.png)
 Profile page
-![image](https://user-images.githubusercontent.com/60084504/120892618-739c7100-c639-11eb-88fc-d21be6150684.png)
+![Profile page](https://user-images.githubusercontent.com/21000822/122154327-9852ce80-ce19-11eb-8636-a6b6c8c7b770.jpg)
+
 
 ## Hasil Implementasi
 
