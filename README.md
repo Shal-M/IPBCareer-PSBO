@@ -127,14 +127,14 @@ Admin memberikan apa yang dibutuhkan oleh user yaitu "Job" karena admin "Job" bi
 
 Fitur utama yang kami kembangkan adalah fitur "Apply Job" dimana user dapat mendaftarkan diri ke berbagai "Job" atau "Internship" dengan mengupload CV dan Resume yang sudah user siapkan untuk melakukan pendaftaran. Selain itu user juga melakukan pencarian terhadap job yang mereka inginkan secara spesifik, dengan cara menuliskan job impian mereka di kotak "Search" dan dengan sekali klik maka hasil pencarian akan memunculkan job yang user inginkan.
 
-## Hasil Implementasi
+## Design
 
 Home
 ![image](https://user-images.githubusercontent.com/60084504/120892445-8bbfc080-c638-11eb-97db-58bdbed5e34f.png)
 Log in page
-![image](https://user-images.githubusercontent.com/60084504/120892469-ac881600-c638-11eb-8eea-9beefe3234df.png)
+![Log in page (1)](https://user-images.githubusercontent.com/21000822/122156972-e61e0580-ce1e-11eb-9211-7008b233276a.png)
 Sign up page
-![image](https://user-images.githubusercontent.com/60084504/120892472-b14cca00-c638-11eb-850d-61b41bf5cd67.png)
+![Sign up page (1)](https://user-images.githubusercontent.com/21000822/122156978-e8805f80-ce1e-11eb-820b-5d7e86375e69.png)
 Categories
 ![image](https://user-images.githubusercontent.com/60084504/120892475-b873d800-c638-11eb-8ed2-b7e90b5e3a52.png)
 Job Preferences
@@ -142,16 +142,18 @@ Job Preferences
 Add job preferences
 ![image](https://user-images.githubusercontent.com/60084504/120892490-c6295d80-c638-11eb-8c7a-58db5330c52c.png)
 Search home page
-![image](https://user-images.githubusercontent.com/60084504/120892494-ce819880-c638-11eb-8e7e-d5de72560cf6.png)
+![Search home page (1)](https://user-images.githubusercontent.com/21000822/122157202-490f9c80-ce1f-11eb-9c41-58a383c761cf.png)
 Favorites
 ![image](https://user-images.githubusercontent.com/60084504/120892499-d6d9d380-c638-11eb-82b8-8a89593ffce3.png)
 Job page
-![image](https://user-images.githubusercontent.com/60084504/120892509-e78a4980-c638-11eb-9513-5ed3702115ed.png)
+![Job page (1)](https://user-images.githubusercontent.com/21000822/122157115-241b2980-ce1f-11eb-83c3-f122a4d3a36a.png)
 Profile page
-![image](https://user-images.githubusercontent.com/60084504/120892618-739c7100-c639-11eb-88fc-d21be6150684.png)
-Edit Profile Page
-![image](https://user-images.githubusercontent.com/60084504/120892631-7eef9c80-c639-11eb-85fa-593dcc4d295b.png)
-    
+![Profile page](https://user-images.githubusercontent.com/21000822/122154327-9852ce80-ce19-11eb-8636-a6b6c8c7b770.jpg)
+
+
+## Hasil Implementasi
+
+
  ## Saran
 * Untuk pengembangan selanjutnya, lebih baik sistem ini menarik IP dari beberapa situs pencarian kerja agar opsi pekerjaan lebih banyak lagi.
 * Untuk pengembangan selanjutnya,karena ini website dikhususkan untuk mahasiswa IPB dan Alumni IPB mungkin menggunakan API dari IPB untuk melakukan login jadi tidak perlu melakukan sign up terlebih dahulu,dan untuk alumnus bisa dibukakan akunnya hanya untuk menggunakan website ini bukan website khusus lainnya.
